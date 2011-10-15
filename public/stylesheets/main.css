@@ -30,5 +30,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+html {
+  height: 100%;
+  overflow-y: scroll; }
+
 body {
-  background: silver; }
+  background-color: silver; }
