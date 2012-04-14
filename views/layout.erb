@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang='en-GB'>
+<head>
+  <meta charset='utf-8'>
+  <title></title>
+  <meta name='description' content=''>
+  <meta name='robots' content=''>
+  <link rel='stylesheet' href='/stylesheets/style.css'>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Trocchi'>
+  <!--[if lt IE 9]>
+  <script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script>
+  <![endif]-->
+</head>
+<body>
+  <%= yield %>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+<script src='/javascripts/script.js'></script>
+<script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+</body>
+</html>
