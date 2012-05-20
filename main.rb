@@ -1,5 +1,10 @@
-require "sinatra"
+require 'sinatra'
 
-get	"/" do
+configure :development do
+  require 'sass/plugin/rack'
+  use Sass::Plugin::Rack
+end
+
+get	'/' do
 	erb :index
 end

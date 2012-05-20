@@ -1,0 +1,12 @@
+/* Reset Styles
+ *--------------------------------------------------- */
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+html {
+  height: 100%;
+  overflow-y: scroll; }
