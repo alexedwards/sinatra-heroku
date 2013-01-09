@@ -1,4 +1,3 @@
-require 'sinatra'
 
 configure :development do
   require 'sass/plugin/rack'
