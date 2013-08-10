@@ -2,7 +2,7 @@
 
 A skeleton Sinatra project for deployment on Heroku's default Cedar stack.
 
-In development environments, the project is set up to provide CSS preprocessing using [Sass](http://sass-lang.com/) and [normalise.css](http://necolas.github.com/normalize.css/), and automated code reloading via [Shotgun](https://github.com/rtomayko/shotgun).
+In development environments, the project is set up to provide automated code reloading via [Shotgun](https://github.com/rtomayko/shotgun).
 
 ## Prerequisites
 
