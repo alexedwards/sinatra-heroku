@@ -3,6 +3,5 @@ gem 'sinatra'
 
 group :development do
   gem 'shotgun'
-  gem 'sass'
 end
 
